@@ -1,8 +1,12 @@
 import React from "react";
 import "./NavBar.css";
+import Appi from "./info.js";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import App from "../App";
 
 const NavBar=()=>{
     return (
+        <Router>
         <div>
             <div className="header">
                 <div className="header-name">
@@ -22,17 +26,25 @@ const NavBar=()=>{
                 </div>
             </div>
             <div className="lower-header">
+            <Link to={"/home"}>
                 <div className="header-home-icon">
                     <i className="home icon"></i>
                 </div>
+                </Link>
                 <div>
                     <i className="newspaper icon"></i>
                 </div>
                 <div>
+                <Link to={"/info"}>
                     <i className="info circle icon"></i>
+                    </Link>
                 </div>
             </div>
         </div>
+        <Routes>
+        <Route path="/info" element={<Appi />} />
+        </Routes>
+        </Router>
     );
 }
 
