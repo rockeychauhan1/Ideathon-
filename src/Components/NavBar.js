@@ -6,7 +6,7 @@ import App from "../App";
 
 const NavBar=()=>{
     return (
-        <Router>
+        // <Router>
         <div>
             <div className="header">
                 <div className="header-name">
@@ -32,7 +32,9 @@ const NavBar=()=>{
                 </div>
                 </Link>
                 <div>
+                    <Link to={"/news"}>
                     <i className="newspaper icon"></i>
+                    </Link>
                 </div>
                 <div>
                 <Link to={"/info"}>
@@ -41,11 +43,8 @@ const NavBar=()=>{
                 </div>
             </div>
         </div>
-        <Routes>
-        <Route path="/info" element={<Appi />} />
-        </Routes>
-        </Router>
-    );
-}
+        
+    )
+};
 
 export default NavBar;

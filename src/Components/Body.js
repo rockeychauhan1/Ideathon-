@@ -70,7 +70,7 @@ const Body = () => {
                 </div>
                 <br />
             </div>
-        </div>
+         </div>
     );
 }
 
