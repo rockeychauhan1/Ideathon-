@@ -1,0 +1,30 @@
+.void {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .row  {
+    height: 200px;
+    position: relative;
+  }
+  
+  .void {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .card{
+      left:23%;
+  }
+ 

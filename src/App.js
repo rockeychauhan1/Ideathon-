@@ -4,7 +4,6 @@ import Body from './Components/Body';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Appi from './Components/info';
 import Application from './Components/news';
-
 const Rockey=()=>{
     return (
         <div>
@@ -14,7 +13,7 @@ const Rockey=()=>{
     )
 }
 
-const tv=()=>{
+const News=()=>{
     return(
         <div>
             <NavBar />
@@ -36,9 +35,9 @@ const App=()=> {
         <div>
             <Router>
             <Routes>
-            <Route path="/home" element={<Chauhan />} />
+            <Route path="/" element={<Chauhan />} />
              <Route path="/info" element={<Rockey />} />
-             <Route path="/news" element={<tv />} />
+             <Route path="/news" element={<News />} />
              </Routes>
             </Router>
     </div>

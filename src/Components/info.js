@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import "./info.css";
 const Appi=()=>{
     return(
+      <>
     <div className="stock" id="stock">
         <p className="stock1">
         What is a stock market?
@@ -24,33 +25,33 @@ const Appi=()=>{
         </p>
         <p className="stock6">
         Whether you are a budding or seasoned stock investor, knowledge of the basic terms used in the stock market is necessary. You will end up becoming not only a better investor but also a successful trader as your vocabulary on the stock market grows. Here is a glossary of basic terms that you need to know as an investor:
-        <br />  <text className="void">• Agent:</text><br /> An agent is a stock brokerage firm which does the buying/selling of shares on behalf of the investor in the stock market.
-        <br />   <text className="void"> • Ask/Offer:</text><br /> It refers to the lowest price at which the owner of the equity share is willing to sell the share in the stock market.
-        <br />  <text className="void"> • At the money:</text><br /> Under this scenario, the strike price of an option is equal to the market price of the underlying asset which it represents.
-        <br />  <text className="void"> • Broker: </text><br />A person who purchases or sells investments/stocks on behalf of the investor/trader in return for a commission.
-        <br /> <text className="void"> • Bear Market:</text><br /> It refers to a period in which the prices of equity shares fall consistently. It’s usually a condition where share prices fall by 20% from recent hghs.
-        <br /> <text className="void"> • Bull Market:</text><br /> An opposite of the bear market, a bull market is a market where the prices of the stocks are increasing over a prolonged period of time. A single stock and a sector can be bullish at one time and bearish at another time.
-        <br /> <text className="void"> • Beta: </text><br />It measures the association between the price of an equity share and the overall movement of the stock
+        <br />  <text className="void1">• Agent:</text><br /> An agent is a stock brokerage firm which does the buying/selling of shares on behalf of the investor in the stock market.
+        <br />   <text className="void1"> • Ask/Offer:</text><br /> It refers to the lowest price at which the owner of the equity share is willing to sell the share in the stock market.
+        <br />  <text className="void1"> • At the money:</text><br /> Under this scenario, the strike price of an option is equal to the market price of the underlying asset which it represents.
+        <br />  <text className="void1"> • Broker: </text><br />A person who purchases or sells investments/stocks on behalf of the investor/trader in return for a commission.
+        <br /> <text className="void1"> • Bear Market:</text><br /> It refers to a period in which the prices of equity shares fall consistently. It’s usually a condition where share prices fall by 20% from recent hghs.
+        <br /> <text className="void1"> • Bull Market:</text><br /> An opposite of the bear market, a bull market is a market where the prices of the stocks are increasing over a prolonged period of time. A single stock and a sector can be bullish at one time and bearish at another time.
+        <br /> <text className="void1"> • Beta: </text><br />It measures the association between the price of an equity share and the overall movement of the stock
           market. Beta of the market is assumed to be 1. A stock’s beta of more than 1 shows a higher risk than the market. A beta of less than 1 shows that stock is less riskier than the market or it would fall lower as compared to the market.
-          <br /> <text className="void">• Bid:</text><br /> It is the highest price that the buyer of a stock is ready to pay for a particular stock.
-          <br /> <text className="void"> • Blue Chip Stock:</text><br /> These are equity shares of companies which are well-established and financially stable. These generally have a relatively high market capitalization.
-          <br /> <text className="void">• Board Lot:</text><br /> Each exchange board defines a standard trading unit which relies on the per share price. Some of the popular board lot sizes are 50, 100, 500, 1000 units.
-          <br /> <text className="void">  • Bonds: </text><br />A bond is a fixed income investment which is issued by the government or a company to its buyers. It shows a specified amount which an investor lends to the issuer of the bond for a specified period of time at a variable or fixed interest rate called the coupon rate.
-          <br /> <text className="void">• Book:</text> <br />It relates to an electronic record which is used to organise all the buy and sell orders of particular stocks which have remained pending.
-          <br /> <text className="void"> • Call Option: </text><br />In this, the buyer of the option gets the right but not the obligation to purchase the underlying asset at a specified price and time.
-          <br />  <text className="void"> • Close Price:</text><br /> It is the final price on a specific trading day at which the equity shares of a company are sold or traded.
-          <br /> <text className="void"> • Convertible Securities: </text><br />It is a security like preferred stocks, bonds, debentures which are issued by an issuer capable of being converted into other securities of that issuer.
-          <br />  <text className="void"> • Debentures:</text><br /> It is a form of fixed-income instrument which is not backed by security of any physical assets or collateral of the issuer.
-          <br /> <text className="void"> • Defensive Stock:</text><br /> These stocks offer consistent earnings and stable dividends irrespective of the state of the stock market. FMCG, Pharma and IT are popular defensive sectors.
-          <br />  <text className="void"> • Delta:</text><br /> A delta relates to the ratio of change in the price of a derivative in response to change in the price of the underlying asset. A higher delta suggests higher sensitivity to the price changes of the underlying asset.
-          <br />  <text className="void">  • Face value:</text><br /> It relates to the amount of money or the value in cash that the holder of a security will obtain from the issuer of
+          <br /> <text className="void1">• Bid:</text><br /> It is the highest price that the buyer of a stock is ready to pay for a particular stock.
+          <br /> <text className="void1"> • Blue Chip Stock:</text><br /> These are equity shares of companies which are well-established and financially stable. These generally have a relatively high market capitalization.
+          <br /> <text className="void1">• Board Lot:</text><br /> Each exchange board defines a standard trading unit which relies on the per share price. Some of the popular board lot sizes are 50, 100, 500, 1000 units.
+          <br /> <text className="void1">  • Bonds: </text><br />A bond is a fixed income investment which is issued by the government or a company to its buyers. It shows a specified amount which an investor lends to the issuer of the bond for a specified period of time at a variable or fixed interest rate called the coupon rate.
+          <br /> <text className="void1">• Book:</text> <br />It relates to an electronic record which is used to organise all the buy and sell orders of particular stocks which have remained pending.
+          <br /> <text className="void1"> • Call Option: </text><br />In this, the buyer of the option gets the right but not the obligation to purchase the underlying asset at a specified price and time.
+          <br />  <text className="void1"> • Close Price:</text><br /> It is the final price on a specific trading day at which the equity shares of a company are sold or traded.
+          <br /> <text className="void1"> • Convertible Securities: </text><br />It is a security like preferred stocks, bonds, debentures which are issued by an issuer capable of being converted into other securities of that issuer.
+          <br />  <text className="void1"> • Debentures:</text><br /> It is a form of fixed-income instrument which is not backed by security of any physical assets or collateral of the issuer.
+          <br /> <text className="void1"> • Defensive Stock:</text><br /> These stocks offer consistent earnings and stable dividends irrespective of the state of the stock market. FMCG, Pharma and IT are popular defensive sectors.
+          <br />  <text className="void1"> • Delta:</text><br /> A delta relates to the ratio of change in the price of a derivative in response to change in the price of the underlying asset. A higher delta suggests higher sensitivity to the price changes of the underlying asset.
+          <br />  <text className="void1">  • Face value:</text><br /> It relates to the amount of money or the value in cash that the holder of a security will obtain from the issuer of
           the security when the security matures at the specific date.
-          <br />  <text className="void"> • Moving Average:</text><br /> It refers to the average price per unit of an equity share with respect to a specific period of time. Some popular time frames used to study the moving average of a stock include 50- and 200-day moving averages.
-          <br />  <text className="void">• One-sided Market:</text><br />It refers to a situation wherein a market only contains potential sellers/ buyers instead of both being present simultaneously. Market makers show only the bid price or an offer price indicating that the market is heading in one direction.
-          <br /> <text className="void">• Spread: </text><br />It refers to the difference between the bid and the ask prices of an equity share. You may perceive it as the difference between the amount at which you would like to buy and the amount at which you would like to sell a stock.
-          <br />  <text className="void"> • Volatility:</text> <br />It refers to the fluctuations in the price of an equity share. Highly volatile stocks witness severe ups and downs during trading sessions. These are highly risky bets which can bring huge profits for the skilled trader. However, stocks may crash in a short time and extreme volatility could result in a severe loss.
-          <br />  <text className="void"> • Volume: </text><br />It shows the average number of stocks which are traded during a particular time, usually the daily trading volume.
-          <br />  <text className="void"> • Dividend Yield:</text><br /> It shows how much a company or firm pays out in dividends every year as compared to the stock price.
+          <br />  <text className="void1"> • Moving Average:</text><br /> It refers to the average price per unit of an equity share with respect to a specific period of time. Some popular time frames used to study the moving average of a stock include 50- and 200-day moving averages.
+          <br />  <text className="void1">• One-sided Market:</text><br />It refers to a situation wherein a market only contains potential sellers/ buyers instead of both being present simultaneously. Market makers show only the bid price or an offer price indicating that the market is heading in one direction.
+          <br /> <text className="void1">• Spread: </text><br />It refers to the difference between the bid and the ask prices of an equity share. You may perceive it as the difference between the amount at which you would like to buy and the amount at which you would like to sell a stock.
+          <br />  <text className="void1"> • Volatility:</text> <br />It refers to the fluctuations in the price of an equity share. Highly volatile stocks witness severe ups and downs during trading sessions. These are highly risky bets which can bring huge profits for the skilled trader. However, stocks may crash in a short time and extreme volatility could result in a severe loss.
+          <br />  <text className="void1"> • Volume: </text><br />It shows the average number of stocks which are traded during a particular time, usually the daily trading volume.
+          <br />  <text className="void1"> • Dividend Yield:</text><br /> It shows how much a company or firm pays out in dividends every year as compared to the stock price.
         </p>
         <p className="stock7">
         Stock Market Basics
@@ -102,9 +103,9 @@ const Appi=()=>{
         <p className="stock20">
         Naturally, when you buy shares at a lower price and sell it at a higher price, you earn the capital gain. However there are two ways you can do this and if you are a beginner, it is especially important for you to know the difference between stock trading basics and stock investment basics.
         <br /> There are two ways:-
-        <br /> <text className="void">Stock investors:</text><br /> Stock investors are those who keep their money in the stock for a longer period of time, sometimes even years. Returns are compounded over a period of
+        <br /> <text className="void11">Stock investors:</text><br /> Stock investors are those who keep their money in the stock for a longer period of time, sometimes even years. Returns are compounded over a period of
         time. Investors use fundamental analysis. They look at the growth trajectory of the company because your investment literally grows with the company in the long term.
-        <br /> <text className="void">Stock traders:</text><br /> Stock traders generally buy and sell within the same trading session. Traders use technical analysis to understand which stocks to invest in. Traders look for short and quick gains. Stock trading basics will require you to learn technical indicators like momentum oscillators, bollinger bands, charts and more.
+        <br /> <text className="void1">Stock traders:</text><br /> Stock traders generally buy and sell within the same trading session. Traders use technical analysis to understand which stocks to invest in. Traders look for short and quick gains. Stock trading basics will require you to learn technical indicators like momentum oscillators, bollinger bands, charts and more.
         </p>
         <p className="stock21">
         What is Share Market?
@@ -118,9 +119,9 @@ const Appi=()=>{
         </p>
         <p className="stock24">
         Now that we understand the stock market meaning, one key aspect of stock market basics is that one can trade on one of two market segments. In other words, there are two types of share markets in India. These are primary markets and secondary markets.
-        <br /> <text className="void">1. Primary Share Markets</text><br />
+        <br /> <text className="void1">1. Primary Share Markets</text><br />
         A primary share market is a place where a company first gets registered with the goal of raising money and issues a certain amount of shares. The goal of being publicly listed on a primary stock exchange is to raise money. This where a company gets registered to issue a certain amount of shares and raise money. If the company decides to sell its shares for the first time, this is known as an initial public offering.
-        <br /><text className="void"> 2. Secondary Market</text><br />
+        <br /><text className="void1"> 2. Secondary Market</text><br />
         Once a company’s new securities have been sold in the primary market, they are then traded in the secondary stock market. On the secondary market, investors get the opportunity to exit their investment and sell off their shares. Transactions on the secondary market mostly comprise trades where one investor chooses to buy shares from a separate investor at the prevailing market price.
         Based on whatever prices the two parties agree to set or the prevailing market price, one investor will buy shares from another on a secondary market. Typically investors conduct these transactions through a broker or other such intermediary
         who can facilitate this process. Brokers offer these trading opportunities at different plans.
@@ -130,22 +131,22 @@ const Appi=()=>{
         </p>
         <p className="stock26">
         We cannot discuss stock market basics without addressing the key financial instruments that are traded on it. There are four categories of financial instruments traded on the stock exchange. They are shares, bonds, derivatives, and mutual funds. They are as follows:
-        <br /> <text className="void"> 1.Shares</text><br />
+        <br /> <p className="void1"> 1.Shares</p>
           A share is a unit denoting equity ownership in a corporation that exists as a financial asset providing equitable distribution for any profits earned. Hence, when you buy shares, you buy a stake in the company whose shares you have bought. This means that if the company becomes profitable over time, shareholders are rewarded with dividends. Traders often choose to sell shares at a price higher than which they purchased them.
-          <br /> <text className="void">2.Bonds</text><br />
+          <br /> <p className="void1">2.Bonds</p>
         A company requires money so they can undertake projects. They pay their investors dividends from the revenue earned on their projects. One way of raising the capital for operations and other company procedures is via bonds. When a company chooses to borrow money from a bank, they take a loan which they repay through periodic interest payments. On a similar note, when a company opts to borrow funds from a variety of investors, this is known as a bond, which is also paid off
         through timely interest payments. Take the following example as an explanation of how bonds work.
         Imagine that your goal is to start a project that will begin to earn money in two years’ time. To undertake this project, you will require some initial amount to get you started. Suppose you acquire the required funds in the form of a loan from a friend and write down the receipt of the loan stating that you owe them ₹1 lakh which you will repay in five years with an interest rate of 5% per annum. Suppose that your friend now holds this receipt. It means that they have just purchased a bond by lending out money to your company. Since you have promised to pay the principal amount at a 5% interest, you do so and finally extinguish your principal repayment by the time the fifth year comes to a close.
-        <br /> <text className="void"> 3. Mutual Funds</text><br />
+        <br /> <p className="void1"> 3. Mutual Funds</p>
         One key financial instrument part of share market basics is mutual funds investing. Mutual funds are investments that allow you to indirectly invest in the share market. You can find mutual funds for a variety of financial instruments like equity, debt, or hybrid funds, to name a few. Mutual funds work by pooling money from all the investors that fund them. This aggregate amount is then invested in financial instruments. Mutual funds are handled professionally by a fund manager.
         Each mutual fund scheme issues units that are of a certain value similar to a share. When you invest in such funds, you become a unit-holder in that mutual fund scheme. When
         instruments that are part of that mutual fund scheme earn revenue over time, the unit-holder receives that revenue reflected as the net asset value of the fund or in the form of dividend payouts.
-        <br /> <text className="void">4. Derivatives</text><br />
+        <br /> <p className="void1">4. Derivatives</p>
          The market value of shares listed on a stock market continues to fluctuate. It is difficult to fix the value of a share at one particular price. This is where derivatives enter the picture. Derivatives are instruments that allow you to trade at a price that has been fixed by you today. To put it simply, you enter into an agreement where you choose to either sell or buy a share or any other instrument at a certain fixed price.
         </p>
     </div>
     
-    
+    </>
     );
 };
 

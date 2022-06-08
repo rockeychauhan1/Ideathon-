@@ -14,10 +14,10 @@ const NavBar=()=>{
                 </div>
                 <div className="header-searchbar">
                     <div className="ui search">
-                        <div className="ui icon input">
+                        {/* <div className="ui icon input">
                             <input className="prompt" type="text" placeholder="Search here" />
                             <i className="search icon"></i>
-                        </div>
+                        </div> */}
                         <div className="results"></div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const NavBar=()=>{
                 </div>
             </div>
             <div className="lower-header">
-            <Link to={"/home"}>
+            <Link to={"/"}>
                 <div className="header-home-icon">
                     <i className="home icon"></i>
                 </div>

@@ -32,7 +32,7 @@
     margin-left: 20px;
 }
 .stock6{
-    color:yellowgreen;
+    color:white;
     font-size: 25px;
     margin-left: 20px;
 }
@@ -43,7 +43,7 @@
     margin-left: 20px;
 }
 .stock8{
-    color:black;
+    color:lightblue;
     font-size: 25px;
     margin-left: 20px;
 }
@@ -54,7 +54,7 @@
     margin-left: 20px;
 }
 .stock10{
-    color:black;
+    color:white;
     font-size: 25px;
     margin-left: 20px;
 }
@@ -147,6 +147,6 @@
     font-size: 25px;
     margin-left: 20px;
 }
-.void{
-    color:red;
+.void1{
+    color:lightblue;
 }
